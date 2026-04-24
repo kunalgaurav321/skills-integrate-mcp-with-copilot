@@ -88,26 +88,24 @@ section h3 {
 }
 
 .participants-section ul {
-  list-style-type: none;
-  padding-left: 5px;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
 }
 
 .participants-section ul li {
-  padding: 4px 0;
-  position: relative;
+  padding: 2px 0;
+  color: #555;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Remove the bullet point pseudo-element */
-.participants-section ul li::before {
-  display: none;
-}
-
 .participant-email {
   flex-grow: 1;
   margin-right: 8px;
+  word-break: break-all;
 }
 
 .delete-btn {
